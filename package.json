@@ -1,0 +1,17 @@
+{
+  "name": "ProjectArchangel",
+  "version": "1.0.0",
+  "description": "Team Bazinga - # 15 - Sao Paulo - NASA 2020 SPACE APPS CHALLENGE DEMO APP",
+  "main": "server.js",
+  "repository": "https://github.com/bessa3301/BazingaNasa2020.git",
+  "author": "Gabriel Bessa",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.5.0",
+    "fastify-helmet": "^5.0.3",
+    "fastify-redis": "^4.0.3",
+    "fastify-static": "^3.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
