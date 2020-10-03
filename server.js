@@ -10,7 +10,7 @@ fastify
   .register(require('fastify-static'), {
     root: path.join(__dirname, 'public'),
     prefix: '/public/',
-  }).register(helmet)
+  }).register(helmet, { contentSecurityPolicy: false })
 
 fastify.get('/', async (request, reply) => {
   let { ip } = request
@@ -21,9 +21,6 @@ fastify.get('/', async (request, reply) => {
 })
 
 // js and css files
-fastify.get('/js/home', async function (request, reply) {
-  reply.sendFile('bazinga.js')
-})
 fastify.get('/css/home', async function (request, reply) {
   reply.sendFile('bazinga.css')
 })
