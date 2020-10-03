@@ -20,7 +20,7 @@ fastify.get('/', async (request, reply) => {
   reply.sendFile('TeamBazinga.html')
 })
 
-// js and css files
+// css file
 fastify.get('/css/home', async function (request, reply) {
   reply.sendFile('bazinga.css')
 })
