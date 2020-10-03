@@ -3,12 +3,14 @@
 const fastify = require('fastify')({ logger: false, trustProxy: true })
 const redis = require('redis').createClient({ host: 'localhost', port: 6379 })
 const path = require('path')
+const helmet = require('fastify-helmet')
 require('dotenv').config()
 
-fastify.register(require('fastify-static'), {
-  root: path.join(__dirname, 'public'),
-  prefix: '/public/',
-})
+fastify
+  .register(require('fastify-static'), {
+    root: path.join(__dirname, 'public'),
+    prefix: '/public/',
+  }).register(helmet)
 
 fastify.get('/', async (request, reply) => {
   let { ip } = request
