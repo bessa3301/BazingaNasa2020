@@ -6,12 +6,18 @@
   "repository": "https://github.com/bessa3301/BazingaNasa2020.git",
   "author": "Gabriel Bessa",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "fastify": "^3.5.0",
     "fastify-helmet": "^5.0.3",
     "fastify-redis": "^4.0.3",
     "fastify-static": "^3.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "reveal.js": "^4.0.2"
   }
 }
