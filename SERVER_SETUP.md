@@ -1,7 +1,7 @@
 [x] redis
 [x] nodejs
 [x] yarn
-[] nginx
+[x] nginx
 [x] ufw
 [x] pm2
 

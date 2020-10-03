@@ -5,12 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bazinga</title>
-  <!--
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Gabriel Bessa">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/revealReset">
   <link rel="stylesheet" href="/css/reveal">
-  <link rel="stylesheet" href="/css/revealDarkTheme">
+  <link rel="stylesheet" href="/css/revealMoon" id="theme">
   <link rel="stylesheet" href="/css/home">
--->
 </head>
 
 <body>
@@ -23,17 +26,30 @@
       <section>
         <div> - Team Bazinga - </div>
         <h2> Estamos em construção volte em 1 hora </h2>
+      </section>
 
+      <section>
+        <div>
+          <h3>Conheca nosso projeto do ano passado: <code><a href="http://teambazinga.co">
+            teambazinga.co</a></code>
+          </h3>
+        </div>
       </section>
 
 
     </div>
   </div>
 
-  <!--
   <script src="/js/reveal"></script>
   <script src="/js/home"></script>
--->
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      center: true,
+      hash: true,
+    }); // Init RevealJS
+  </script>
 </body>
 
 </html>

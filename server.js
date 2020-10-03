@@ -38,9 +38,10 @@ fastify.get('/css/revealReset', async function (request, reply) {
 fastify.get('/css/reveal', async function (request, reply) {
   reply.sendFile('/dist/reveal.css')
 })
-fastify.get('/css/revealDarkTheme', async function (request, reply) {
-  reply.sendFile('/dist/theme/black.css')
+fastify.get('/css/revealMoon', async function (request, reply) {
+  reply.sendFile('/dist/theme/moon.css')
 })
+
 
 
 const start = async () => {
