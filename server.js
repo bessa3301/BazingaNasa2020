@@ -61,6 +61,10 @@ fastify.get('/img/space', async function (request, reply) {
 fastify.get('/img/mars', async function (request, reply) {
   reply.sendFile('/assets/mars.jpg')
 })
+fastify.get('/ico', async function (request, reply) {
+  reply.sendFile('/assets/logo.ico')
+})
+
 
 
 
