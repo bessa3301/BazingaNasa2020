@@ -59,12 +59,22 @@
       <section>
         <div>
           <h2>Solving a problem:</h2>
-          <h5>
+          <p class="text-start smol">
             Using NASA and JAXA data, we believe to have created a solution for interplanetary communication between
             Mars and earth;
             <br>
-            We intend here to showcase the solution we came up with, including all the code and the 3D model
-          </h5>
+            We intend here to showcase the solution we came up with, including all the code we made for this demo and
+            the 3D model (last slide);
+            <br>
+            The concept is having a communication Satellite belt, in a Fail-Safe and Space-Ready environment. Using
+            low-cost and Low-Maintenance Sattelites, and capture energy from the sun.
+            <br>
+            We also plan to have 3 microcomputers on board to analise different inputs of data and prevent space
+            radiation from interfeering on the data quality;
+            <br>
+            Last but not least, we plan on having a algorithm to minify the data being transported. Making the sistem
+            more effective and able to handle RESTful, socket, TCP/IP, and many other server communications
+          </p>
         </div>
       </section>
 
@@ -74,14 +84,23 @@
           <div class="flex-center">
             <div class="text-start">
               <h5 class="text-start">MICROSATTELITES</h5>
-              <p class="text-start">Made using aluminum and carbon fiber and Solar Panels,
+              <p class="text-start smol">
+                Made using aluminum and carbon fiber and Solar Panels,
                 with a clean and light weight
-                design orbits the belt between Earth and Mars</p>
+                design orbits the belt between Earth and Mars
+                <br>
+                <b>Technical Info:</b>
+                The device uses lazer technology to comunicate one to other, and back to earth.
+                The software must determine if the device is in position and to pass signal to other satelites if a
+                problem is detected.
+                Erlang and PostgreSQL are the tools choosen to build this software - providing a fail-safe environment.
+                We estimate the cost of a prototype in US $85,000.
+              </p>
             </div>
 
             <div>
-              <img src="/img/v1" style="margin-top: 3px;">
-              <img src="/img/v2" style="margin-top: 3px;">
+              <img src="/img/v1" style="margin-top: 0px; margin-bottom: 2px;">
+              <img src="/img/v2" style="margin-top: 0px; margin-bottom: 2px;">
             </div>
           </div>
         </div>
@@ -94,8 +113,10 @@
           During the Hackaton we were able to understand that data speed in space is not the problem. Instead
           it is the signal strenght. When mars is not close enough to earth, or even in the opposite side of the
           solar system, it becomes nearly impossible to establish effective communication.
+          <br>
+          We plan to sell the data-transfer as a service, or the single Sattelite as a product.
         </p>
-        <code>Our solution is to create a Satellite Belt between MARS and EARTH. Making it possible to 
+        <code class="bitbig">Our solution is to create a Satellite Belt between MARS and EARTH. Making it possible to 
           strenghten the singal, and complete communication idepentent of planetary alignment</code>
         <br>
         <img src="/img/space" height="150">
