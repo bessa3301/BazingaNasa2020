@@ -43,6 +43,25 @@ fastify.get('/css/revealMoon', async function (request, reply) {
 fastify.get('/img/berightback', async function (request, reply) {
   reply.sendFile('/assets/be_right_back.png')
 })
+fastify.get('/img/v1', async function (request, reply) {
+  reply.sendFile('/assets/view1.png')
+})
+fastify.get('/img/v2', async function (request, reply) {
+  reply.sendFile('/assets/view2.png')
+})
+fastify.get('/img/v3', async function (request, reply) {
+  reply.sendFile('/assets/view3.png')
+})
+fastify.get('/img/team', async function (request, reply) {
+  reply.sendFile('/assets/team.png')
+})
+fastify.get('/img/space', async function (request, reply) {
+  reply.sendFile('/assets/space.png')
+})
+fastify.get('/img/mars', async function (request, reply) {
+  reply.sendFile('/assets/mars.jpg')
+})
+
 
 
 

@@ -6,3 +6,11 @@
 .btn-space {
 	font-size: 24px;
 }
+
+.text-start {
+	text-align: start !important;
+}
+
+.smol {
+	font-size: x-large;
+}
