@@ -39,6 +39,11 @@ fastify.get('/css/revealMoon', async function (request, reply) {
   reply.sendFile('/dist/theme/moon.css')
 })
 
+//static images
+fastify.get('/img/berightback', async function (request, reply) {
+  reply.sendFile('/assets/be_right_back.png')
+})
+
 
 
 const start = async () => {
