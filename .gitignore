@@ -1,4 +1,8 @@
 /node_modules/
 /reveal-basic/
+/video/
 
 .env
+
+txt.png
+SERVER_SETUP.md
