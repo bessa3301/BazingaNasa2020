@@ -4,7 +4,16 @@
 }
 
 .btn-space {
-	font-size: 24px;
+	font-size: 33px;
+	color: white;
+	border-radius: 8px;
+	background-color: black;
+	outline: none;
+	border-color: black;
+}
+.btn-space:active {
+	background-color: yellow;
+	color: black;
 }
 
 .text-start {
